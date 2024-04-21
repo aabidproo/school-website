@@ -6,6 +6,14 @@
     font-family: "Plus Jakarta Sans", sans-serif;
 }
 
+body {
+    background: url("banner.jpeg");
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+/* Header */
 
 header {
     position: fixed;
@@ -15,15 +23,6 @@ header {
     min-height: 80px;
     align-content: center;
 }
-
-body {
-    background: url("banner.jpeg");
-    background-position: center;
-    background-size: cover;
-    height: 100vh;
-}
-
-/* Header */
 
 header .navbar {
     display: flex;
@@ -81,6 +80,7 @@ header .navbar {
     text-decoration: none;
     transition: 0.3s ease;
 }
+
 .navbar a:hover {
     color: #99172F;
 }
@@ -93,20 +93,20 @@ header .navbar {
     align-items: center;
     padding: 0 20px;
     background-color: rgba(0, 0, 0, 0.541);
-    
+
 }
 
-.hero-section .content{
+.hero-section .content {
     color: #fff;
     max-width: 1200px;
     margin: 0 auto;
     width: 100%;
-   
+
 }
- 
+
 .hero-section .content h1 {
     font-size: 3rem;
-    max-width: 600px; 
+    max-width: 600px;
     margin-top: 12px;
 }
 
@@ -126,7 +126,7 @@ header .navbar {
     background-color: #99172F;
     color: #fff;
     margin-top: 20px;
-    transition: all 0.3s ease; 
+    transition: all 0.3s ease;
     cursor: pointer;
 }
 
@@ -147,13 +147,15 @@ header .navbar {
     position: absolute;
     right: 20px;
     top: 20px;
-    cursor: pointer ;
+    cursor: pointer;
     display: none;
 }
 
 /* Responsive */
 @media screen and (max-width:900px) {
-    #menu-btn, #close-menu-btn {
+
+    #menu-btn,
+    #close-menu-btn {
         display: block;
     }
 
@@ -163,13 +165,13 @@ header .navbar {
         top: 0;
         left: -250px;
         max-width: 250px;
-        padding: 70px 40px 0;  
+        padding: 70px 40px 0;
         width: 100%;
         height: 100vh;
         background-color: #fff;
         transition: left 0.3s ease;
     }
-    
+
     .navbar .menu-links a {
         color: #000;
     }
@@ -199,9 +201,8 @@ header .navbar {
 
     .hero-section .content h1 {
         font-size: 2.5rem;
-        max-width: 600px; 
+        max-width: 600px;
         margin-top: 12px;
     }
 
 }
-
