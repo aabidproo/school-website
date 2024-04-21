@@ -30,18 +30,58 @@
                 <li><a href="#">News</a></li>
                 <li><a href="#">Download</a></li>
                 <button>Contact us</button>
-            </ul> 
+            </ul>
             <span id="menu-btn" class="material-symbols-outlined">menu</span>
         </div>
     </header>
 
     <section class="hero-section">
-        <div class="content">
-             <h4>Academics</h4>
-             <h1>Our Classes that fit your child life and future.</h1>
-             <button>Discover Now</button>
-        </div>
+        <div class="wrapper">
+            <div class="content">
+                <h4>Academics</h4>
+                <h1>Our Classes that fit your child life and future.</h1>
+                <button>Discover Now</button>
+            </div>
     </section>
+
+    <section class="inquiry-now">
+        <div class="content">
+            <h1>Strategies for Success</h1>
+            <div class="line"></div>
+            <p>We are an academic residential college made up of students, scholars, old collegians and staff members.
+                Our rich history is the foundation for our values We are diverse, welcoming, accepting and passionate
+                about being the best we can be. Join us to make your college experience unforgettable.
+            </p>
+        </div>
+
+        <div class="box-wrapper">
+
+            <div class="about-box">
+                <img src="Learn about School.jpeg" alt="Learn more about schoool">
+                <span>Learn about School</span>
+            </div>
+
+            <div class="about-box">
+                <img src="Academics.jpeg" alt="Academics">
+                <span>Academics</span>
+            </div>
+
+            <div class="about-box">
+                <img src="our mission.jpeg" alt="our mission">
+                <span>Our Mission</span>
+            </div>
+
+            <div class="about-box">
+                <div class="bg">Inquiry Now</div>
+                <span id="arrow-icon" class="material-symbols-outlined">arrow_forward</span>
+            </div>
+
+        </div>
+
+
+    </section>
+
+
 
     <script>
         const header = document.querySelector("header");
@@ -49,15 +89,14 @@
         const closeMenuBtn = document.querySelector("#close-menu-btn");
 
         // toogle mobile menu on menu button click
-        menuBtn.addEventListener("click" , () => {
+        menuBtn.addEventListener("click", () => {
             header.classList.toggle("show-mobile-menu");
         });
 
         // close mobile menu on close button click
-        closeMenuBtn.addEventListener("click" , () => {
+        closeMenuBtn.addEventListener("click", () => {
             menuBtn.click();
         });
-
     </script>
 
 

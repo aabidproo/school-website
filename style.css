@@ -6,13 +6,6 @@
     font-family: "Plus Jakarta Sans", sans-serif;
 }
 
-body {
-    background: url("banner.jpeg");
-    background-position: center;
-    background-size: cover;
-    height: 100vh;
-}
-
 /* Header */
 
 header {
@@ -85,6 +78,13 @@ header .navbar {
 /* Hero-Section */
 
 .hero-section {
+    background: url("banner.jpeg");
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.wrapper {
     height: 100vh;
     display: flex;
     align-items: center;
@@ -200,4 +200,95 @@ header .navbar {
         margin-top: 12px;
     }
 
+}
+
+/* Inquiry Now Section */
+
+.inquiry-now {
+    text-align: center;
+    margin: 0 auto;
+    background-color: #fff;
+    height: 300px;
+    padding: 0 20px;
+}
+
+.inquiry-now .content {
+    margin: 0 auto;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    max-width: 800px;
+}
+
+.inquiry-now .line {
+    background-color: #99172f;
+    min-height: 4px;
+    max-width: 100px;
+    margin-top: 10px;
+    margin-inline: auto;
+}
+
+.inquiry-now h1 {
+    font-size: 2rem;
+}
+
+.inquiry-now p {
+    margin-top: 10px;
+    font-size: 1rem;
+    font-weight: 300;
+    color: #7c7c7c;
+}
+
+/* about-box */
+
+.box-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+;
+}
+
+.about-box {
+    display: flex;
+    flex-direction: column;
+    height: 290px;
+    width: 290px;
+    position: relative;
+    margin-bottom: 200px
+}
+
+/* .gradient span {
+    display: flex;
+    flex-direction: column;
+    height: 290px;
+    width: 290px;
+    position: relative;
+    background-color: #000;
+} */
+
+.about-box img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.about-box .bg {
+    background-color: #99172F;
+    height: 100%;
+    width: 100%;
+    align-content: center;
+    color: #fff;
+    font-weight: 600;
+}
+
+/* .about-box #arrow-icon {
+    align-content: center;
+} */
+
+.about-box span {
+    position: absolute;
+    padding: 10px;
+    bottom: 10px;
+    left: 10px;
+    font-weight: 600;
+    color: #fff;
 }
