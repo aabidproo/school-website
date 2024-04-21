@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discovery Secondary School</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="navbar">
+            <a href="#" class="logo">School<span>.</span></a>
+            <ul class="menu-links">
+                <span id="close-menu-btn" class="material-symbols-outlined">close</span>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Academics</a></li>
+                <li><a href="#">News</a></li>
+                <li><a href="#">Download</a></li>
+                <button>Contact us</button>
+            </ul> 
+            <span id="menu-btn" class="material-symbols-outlined">menu</span>
+        </div>
+    </header>
+
+    <section class="hero-section">
+        <div class="content">
+             <h4>Academics</h4>
+             <h1>Our Classes that fit your child life and future.</h1>
+             <button>Discover Now</button>
+        </div>
+    </section>
+
+    <script>
+        const header = document.querySelector("header");
+        const menuBtn = document.querySelector("#menu-btn");
+        const closeMenuBtn = document.querySelector("#close-menu-btn");
+
+        // toogle mobile menu on menu button click
+        menuBtn.addEventListener("click" , () => {
+            header.classList.toggle("show-mobile-menu");
+        });
+
+        // close mobile menu on close button click
+        closeMenuBtn.addEventListener("click" , () => {
+            menuBtn.click();
+        });
+
+    </script>
+
+
+</body>
+
+</html>
