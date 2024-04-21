@@ -67,12 +67,9 @@ header .navbar {
 }
 
 .navbar li {
-    align-content: center;
-}
-
-.navbar li {
     list-style-type: none;
     color: #fff;
+    align-content: center;
 }
 
 .navbar a {
@@ -93,7 +90,6 @@ header .navbar {
     align-items: center;
     padding: 0 20px;
     background-color: rgba(0, 0, 0, 0.541);
-
 }
 
 .hero-section .content {
@@ -101,7 +97,6 @@ header .navbar {
     max-width: 1200px;
     margin: 0 auto;
     width: 100%;
-
 }
 
 .hero-section .content h1 {
