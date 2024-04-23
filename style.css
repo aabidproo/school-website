@@ -78,7 +78,7 @@ header .navbar {
 /* Hero-Section */
 
 .hero-section {
-    background: url("banner.jpeg");
+    background: url("assets/banner.jpeg");
     background-position: center;
     background-size: cover;
     height: 100vh;
